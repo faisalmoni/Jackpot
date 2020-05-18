@@ -1,0 +1,677 @@
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*navbar*/
+    .navbar-brand {
+        width: 170px;
+    }
+
+    .navbar-brand img {
+        width: 100%;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px 7px;
+        font-size: 17px;
+    }
+
+    .navbar .nav-btn a {
+        font-size: 17px;
+    }
+
+    .banner-img img {
+        width: 110%;
+        margin-left: -37px;
+    }
+
+    /*    pricing part*/
+
+    .pricing-inner a {
+        padding: 14px 20px;
+        font-size: 18px;
+    }
+
+    /*    tounament part css*/
+    .tounament-part .count-text {
+        margin-top: 53px;
+    }
+
+    .tounament-part .count-text h3 {
+        font-size: 16px;
+    }
+
+    .tounament-part #countdown {
+        margin-left: 4px;
+        height: 50px;
+        width: 65px;
+    }
+
+    .tounament-part #countdown span {
+        font-size: 16px;
+
+    }
+
+    .tounament-part #countdown p {
+        font-size: 16px;
+    }
+
+    /*    FOOTER-PART*/
+
+    /*    security*/
+    .footer-part .security .security-text {
+        padding-right: 0px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*navbar*/
+    .navbar-brand {
+        width: 250px;
+    }
+
+    .navbar-brand img {
+        width: 100%;
+    }
+
+    .navbar .navbar-toggler {
+        margin-top: 0px;
+        border: 0;
+        padding: 0;
+        color: none;
+    }
+
+    .navbar-toggler i {
+        color: #FDB125;
+        font-size: 30px;
+        padding: 5px 15px;
+        border: 2px solid #FDB125;
+        border-radius: 5px;
+    }
+
+    .navbar #navbarSupportedContent {
+        background: #070707;
+        z-index: 99999;
+        text-align: center;
+        border-top: 2px solid #e9a018;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+        right: 30px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px 7px;
+        font-size: 17px;
+    }
+
+    .navbar .nav-btn a {
+        font-size: 16px;
+        padding: 8px 17px;
+    }
+
+    .navbar .nav-btn {
+        position: absolute;
+        right: 100px;
+        bottom: 50px;
+    }
+
+    /*    banner-part*/
+    .banner-img img {
+        width: 120%;
+        margin-left: -37px;
+    }
+
+    .banner-part .banner-text {
+        margin-top: 0px;
+        text-align: right;
+    }
+
+    .banner-part .banner-text h4 {
+        text-align: left;
+    }
+
+    .banner-part .banner-text h1 {
+        font-size: 200px;
+    }
+
+    /*pricing part*/
+
+    .pricing-inner a {
+        padding: 14px 20px;
+        font-size: 18px;
+    }
+
+    /*    tounament part css*/
+    .tounament-part .touna-left {
+        margin-top: 30px;
+    }
+
+    .tounament-part .count-text {
+        margin-top: 53px;
+    }
+
+    .tounament-part .count-text h3 {
+        font-size: 20px;
+    }
+
+    .tounament-part #countdown {
+        margin-left: 10px;
+        height: 60px;
+        width: 70px;
+    }
+
+    .tounament-part #countdown span {
+        font-size: 20px;
+
+    }
+
+    .tounament-part #countdown p {
+        font-size: 20px;
+    }
+
+
+    /*    claim css*/
+    .claim-text {
+        padding-top: 0px;
+    }
+
+    .claim-text p {
+        padding-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .claim-text a {
+        font-size: 18px;
+        padding: 10px 30px;
+        margin-top: 18px;
+    }
+
+    /*    payment css*/
+    .payment-part .subscribe h3 {
+        font-size: 30px;
+    }
+
+    .payment-part .pay-method .pay-card {
+        margin-top: 9px;
+    }
+
+    .payment-part .pay-method h3 {
+        font-size: 30px;
+    }
+
+    .payment-part .pay-method .pay-card a {
+        padding-right: 3px;
+    }
+
+
+    /*    FOOTER-PART*/
+
+    /*    security*/
+    .footer-part .security .security-text {
+        padding-right: 0px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*navbar*/
+    .navbar-brand {
+        width: 250px;
+    }
+
+    .navbar-brand img {
+        width: 100%;
+    }
+
+    .navbar .navbar-toggler {
+        margin-top: 0px;
+        border: 0;
+        padding: 0;
+        color: none;
+    }
+
+    .navbar-toggler i {
+        color: #FDB125;
+        font-size: 30px;
+        padding: 5px 15px;
+        border: 2px solid #FDB125;
+        border-radius: 5px;
+    }
+
+    .navbar #navbarSupportedContent {
+        background: #070707;
+        z-index: 99999;
+        text-align: center;
+        border-top: 2px solid #e9a018;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+        right: 30px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px 7px;
+        font-size: 17px;
+    }
+
+    .navbar .nav-btn a {
+        font-size: 16px;
+        padding: 8px 17px;
+    }
+
+    .navbar .nav-btn {
+        position: absolute;
+        right: 100px;
+        bottom: 50px;
+    }
+
+    /*    banner-part*/
+    .banner-img img {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -110px;
+    }
+
+    .banner-part .banner-text {
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    .banner-part .banner-text h4 {
+        text-align: left;
+    }
+
+    .banner-part .banner-text h1 {
+        font-size: 170px;
+        text-align: center;
+    }
+
+    .banner-part .banner-btn a {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    /*===game-part css===*/
+
+    /*game-flow cs*/
+    .game-part .game-flow {
+        -webkit-transform: translateY(-25%);
+        transform: translateY(-25%);
+    }
+
+    /*    related game  part*/
+    .game-head h2 {
+        font-size: 32px;
+    }
+
+    .game-overlay h3 {
+        font-size: 20px;
+    }
+
+    .game-overlay a {
+        padding: 8px 16px;
+        font-size: 18px;
+    }
+
+    /*pricing part*/
+    .pricing-part .pricing-heading h2 {
+        font-size: 32px;
+    }
+
+    .pricing-inner a {
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    /*    tounament part css*/
+    .tounament-part .touna-left {
+        margin-top: 30px;
+    }
+
+    .tounament-part .count-text {
+        margin-top: 53px;
+    }
+
+    .tounament-part .count-text h3 {
+        font-size: 20px;
+    }
+
+    .tounament-part #countdown {
+        margin-left: 10px;
+        height: 60px;
+        width: 70px;
+    }
+
+    .tounament-part #countdown span {
+        font-size: 20px;
+
+    }
+
+    .tounament-part #countdown p {
+        font-size: 20px;
+    }
+
+    /*    claim css*/
+    .claim-text {
+        padding-top: 0px;
+    }
+
+
+    .claim-part .claim-text h2 {
+        font-size: 30px;
+    }
+
+    .claim-text p {
+        padding-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .claim-text span {
+        display: none;
+    }
+
+    .claim-text a {
+        font-size: 18px;
+        padding: 10px 18px;
+        margin-top: 18px;
+    }
+
+    /*  tounament part*/
+    .touna-left h3 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+
+    .tounament-part #accordionExample .card-header i {
+        padding-top: 15px;
+    }
+
+    .tounament-part #accordionExample .card-header span {
+        font-size: 14px;
+    }
+    
+    .tounament-part .touna-left {
+        margin-top: 20px;
+    }
+
+    /*    payment css*/
+    .payment-part .subscribe h3 {
+        font-size: 30px;
+    }
+
+    .payment-part .pay-method .pay-card {
+        margin-top: 9px;
+    }
+
+    .payment-part .pay-method {
+        padding-top: 20px;
+    }
+
+    .payment-part .pay-method h3 {
+        font-size: 30px;
+    }
+
+    .payment-part .pay-method .pay-card a {
+        padding-right: 3px;
+    }
+
+
+    /*    FOOTER-PART*/
+
+    /*    security*/
+    .footer-part .security .security-text {
+        padding-right: 0px;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        width: 130px;
+    }
+
+    .navbar-brand img {
+        width: 100%;
+    }
+
+    .navbar .navbar-toggler {
+        margin-top: 0px;
+        border: 0;
+        padding: 0;
+        color: none;
+    }
+
+    .navbar-toggler i {
+        font-size: 18px;
+        padding: 6px 8px;
+        color: #FDB125;
+        border: 2px solid #FDB125;
+        border-radius: 5px;
+    }
+
+    .navbar #navbarSupportedContent {
+        background: #070707;
+        z-index: 99999;
+        text-align: center;
+        border-top: 2px solid #e9a018;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+        right: 30px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px 7px;
+        font-size: 17px;
+    }
+
+    .navbar .nav-btn {
+        position: absolute;
+        right: 60px;
+        bottom: 22px;
+    }
+
+    .navbar .nav-btn a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    /*    banner-part*/
+    .banner-part {
+        padding-top: 180px;
+        padding-bottom: 140px;
+    }
+
+    .banner-img img {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -45px;
+    }
+
+    .banner-part .banner-text {
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    .banner-part .banner-text h4 {
+        text-align: left;
+    }
+
+    .banner-part .banner-text h1 {
+        font-size: 200px;
+        text-align: center;
+    }
+
+    /*===game-part css===*/
+
+    /*game-flow cs*/
+    .game-part .game-flow {
+        -webkit-transform: translateY(-10%);
+        transform: translateY(-10%);
+    }
+
+    /*    related game  part*/
+    .game-head h2 {
+        font-size: 32px;
+    }
+
+    .game-overlay h3 {
+        font-size: 20px;
+    }
+
+    .game-overlay a {
+        padding: 8px 16px;
+        font-size: 18px;
+    }
+
+    /*pricing part*/
+    .pricing-part {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .pricing-part .pricing-heading h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .pricing-inner .pricing-head h3 {
+        font-size: 16px;
+        padding: 13px 0px;
+        top: -48px;
+    }
+
+    .pricing-part .pricing-inner {
+        padding: 25px 0;
+    }
+
+    .pricing-inner h4 {
+        font-size: 25px;
+    }
+
+    .pricing-inner h5 {
+        font-size: 30px;
+    }
+
+    .pricing-inner p {
+        font-size: 14px;
+        padding-bottom: 13px;
+        margin-bottom: 0;
+    }
+
+    .pricing-inner ul li {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .pricing-inner ul li:first-child {
+        padding-top: 12px;
+    }
+
+    .pricing-inner a {
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    /*    claim css*/
+    .claim-text {
+        padding-top: 0px;
+    }
+
+    .claim-part .claim-text h2 {
+        font-size: 30px;
+    }
+
+    .claim-text p {
+        padding-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .claim-text span {
+        display: none;
+    }
+
+    .claim-text a {
+        font-size: 18px;
+        padding: 10px 18px;
+        margin-top: 18px;
+    }
+
+    /*  tounament part*/
+    .tounament-part {
+        padding: 40px 0;
+    }
+
+    .touna-left h3 {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+
+    .tounament-part #accordionExample .card-header span {
+        font-size: 16px;
+    }
+
+    .tounament-part #accordionExample .card-header i {
+        padding-top: 0px;
+    }
+
+    .tounament-part .touna-left {
+        margin-top: 20px;
+    }
+
+    .tounament-part .single-country {
+        padding: 5px 0;
+    }
+
+    .tounament-part .single-country span {
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .tounament-part .count-text {
+        margin-top: 30px;
+    }
+
+    .tounament-part #countdown {
+        float: left;
+        margin-top: 30px;
+    }
+
+    /*    payment css*/
+    .payment-part .subscribe h3 {
+        font-size: 30px;
+    }
+
+    .payment-part .pay-method .pay-card {
+        margin-top: 9px;
+    }
+
+    .payment-part .pay-method {
+        padding-top: 20px;
+    }
+
+    .payment-part .pay-method h3 {
+        font-size: 30px;
+    }
+
+    .payment-part .pay-method .pay-card a {
+        padding-right: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    /*    FOOTER-PART*/
+
+    /*    security*/
+    .footer-part .security .security-text {
+        padding-right: 0px;
+    }
+}
