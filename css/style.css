@@ -42,6 +42,9 @@ a {
     display: inline-block;
     -webkit-transition: all .3s linear;
     transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
 }
 
 ul,
@@ -77,7 +80,9 @@ button:focus {
     color: #fff;
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
-
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
@@ -159,7 +164,9 @@ button:focus {
     background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
     filter: drop-shadow(10px 0px 35px #4d0148);
+    -webkit-filter: drop-shadow(10px 0px 35px #4d0148);
 }
 
 .banner-part .banner-text p {
@@ -182,7 +189,9 @@ button:focus {
     font-family: 'Anton';
     margin-top: 22px;
     box-shadow: 0px 5px 0px rgba(58, 0, 144, 1);
+    -webkit-box-shadow: 0px 5px 0px rgba(58, 0, 144, 1);
     text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    -webkit-text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
 }
 
 .banner-part .banner-btn a:hover {
@@ -205,6 +214,10 @@ button:focus {
 .game-part .game-flow {
     transform: translateY(-50%);
     clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 .game-text {
@@ -214,6 +227,7 @@ button:focus {
     box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
     background: linear-gradient(to right, #9e4efc 0%, #570dc8 100%);
     filter: drop-shadow(30px 10px 4px #4444dd);
+    -webkit-filter: drop-shadow(30px 10px 4px #4444dd);
 }
 
 .game-text h3 {
@@ -225,7 +239,9 @@ button:focus {
     line-height: 1;
     background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
 
 }
 
@@ -256,9 +272,10 @@ button:focus {
     margin-bottom: 40px;
     background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 0 25px #4d0148);
-    -webkit-filter: drop-shadow(0 0 25px #4d0148);
+    -webkit-filter:drop-shadow(0 0 25px #4d0148);
 }
 
 .game-img {
@@ -314,7 +331,10 @@ button:focus {
     background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
     box-shadow: 0px 5px 0px rgba(58, 0, 144, 1);
     text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
-
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .game-overlay a:hover {
@@ -346,8 +366,10 @@ button:focus {
     color: #FCB100;
     background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 0 25px #4d0148);
+    -webkit-filter: drop-shadow(0 0 25px #4d0148);
 }
 
 .claim-text p {
@@ -405,8 +427,10 @@ button:focus {
     margin-bottom: 60px;
     background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 0 25px #4d0148);
+    -webkit-filter: drop-shadow(0 0 25px #4d0148);
 }
 
 .pricing-part .pricing-inner {
@@ -424,6 +448,10 @@ button:focus {
 
 .pricing-inner:hover {
     transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
 }
 
 .pricing-inner .pricing-head h3 {
@@ -540,6 +568,7 @@ button:focus {
     position: relative;
     background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 65%, #fcb100 70%);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 0 25px #4d0148);
     padding-bottom: 25px;
@@ -559,8 +588,6 @@ button:focus {
     top: 2px;
     animation: aniShape 10s infinite alternate;
     -webkit-animation: aniShape 10s infinite alternate;
-
-
 }
 
 @keyframes aniShape {
@@ -581,6 +608,10 @@ button:focus {
     border: 1px solid transparent;
     border-radius: 0;
     background: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
 
 .tounament-part .card.addBorder {
@@ -639,6 +670,10 @@ button:focus {
 	display: inline-block;
 	height: 60px;
 	width: 70px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 }
 .tounament-part #countdown span {
 	color: #fcb100;
@@ -845,7 +880,6 @@ button:focus {
 }
 
 /*Security Info*/
-.footer-part .security {}
 
 .footer-part .security h3 {
     font-size: 32px;
